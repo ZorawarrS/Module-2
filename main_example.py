@@ -10,23 +10,23 @@ import pandas as pd
 # Load the images you want to analyze
 
 filenames = [
-    r"/Users/smp6p/Documents/TEACHING/Teaching - BME 2315/Module_2/Code_for_Module_2/MASK_SK658 Llobe ch010017.jpg",
-    r"/Users/smp6p/Documents/TEACHING/Teaching - BME 2315/Module_2/Code_for_Module_2/MASK_SK658 Llobe ch010019.jpg",
-    r"/Users/smp6p/Documents/TEACHING/Teaching - BME 2315/Module_2/Code_for_Module_2/MASK_SK658 Llobe ch010022.jpg",
-    r"/Users/smp6p/Documents/TEACHING/Teaching - BME 2315/Module_2/Code_for_Module_2/MASK_SK658 Llobe ch010025.jpg",
-    r"/Users/smp6p/Documents/TEACHING/Teaching - BME 2315/Module_2/Code_for_Module_2/MASK_SK658 Llobe ch010031.jpg",
-    r"/Users/smp6p/Documents/TEACHING/Teaching - BME 2315/Module_2/Code_for_Module_2/MASK_SK658 Llobe ch010026.jpg",
+    r"/Users/zorawar/Desktop/CompBMEFolder/MASK_Sk658 Llobe ch010121.jpg",
+    r"/Users/zorawar/Desktop/CompBMEFolder/MASK_Sk658 Llobe ch010025.jpg",
+    r"/Users/zorawar/Desktop/CompBMEFolder/MASK_Sk658 Llobe ch010160.jpg",
+    r"/Users/zorawar/Desktop/CompBMEFolder/MASK_SK658 Slobe ch010119.jpg",
+    r"/Users/zorawar/Desktop/CompBMEFolder/MASK_SK658 Slobe ch010156.jpg",
+    r"/Users/zorawar/Desktop/CompBMEFolder/MASK_SK658 Slobe ch010158.jpg",
             ]
 
 # Enter the depth of each image (in the same order that the images are listed above; you can find these in the .csv file provided to you which is tilted: "Filenames and Depths for Students")
 
 depths = [
-    45,
-    60,
-    80,
+    9000,
     570,
-    955,
-    2800
+    7200,
+    8000,
+    330,
+    920
     ]
 
 # Make the lists that will be used
